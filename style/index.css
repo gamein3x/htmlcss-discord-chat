@@ -1,0 +1,14 @@
+/* CSS RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* BODY PRESET */
+
+body {
+    margin: 0 auto;
+    width: 512px;
+}
