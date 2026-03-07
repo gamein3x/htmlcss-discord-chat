@@ -44,6 +44,24 @@ body {
 	display: flex;
 }
 
+/* Message board */
+
+.msg-board {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-grow: 1;
+    background: darkslategrey;
+    max-width: 91%;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+.msg-board > div {
+	width: 100%;
+}
+
 .footer {
 	height: var(--ft-height);
 	display: flex;
