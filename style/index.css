@@ -23,13 +23,19 @@ body {
 .main {
 	height: calc(100vh - var(--ft-height));
 	display: flex;
+	position: relative;
+	background: black;
 }
 
 /* Sidebar */
 
 .sidebar {
+	height: 320px;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 5px;
 }
 
 .server-icons {
