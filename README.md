@@ -1,0 +1,1 @@
+# Esercizio del venerdì 06/03/2026: Discord Chat
