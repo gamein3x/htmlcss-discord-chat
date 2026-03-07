@@ -7,129 +7,136 @@
     <meta name="author" content="Ivan Caldarella">
     <meta name="description" content="Replica della web app di Discord">
     <title>Discord Chat</title>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
 </head>
 
 <body>
     <main class="main">
         <div class="sidebar">
-            <div class="profile-icons direct-icon">
-                <img>
+            <div class="server-icons direct-icon">
+                <img src="img\logo.webp" alt="Direct messages logo">
             </div>
-            <div class="profile-icons">
-                <img>
+            <div class="server-icons">
+                <img src="img\server arte.png" alt="Server di arte">
             </div>
-            <div class="profile-icons">
-                <img>
+            <div class="server-icons">
+                <img src="img\server_boolean.png" alt="Server di Boolean">
             </div>
-            <div class="profile-icons">
-                <img>
+            <div class="server-icons">
+                <img src="img\server_italia.png" alt="Server Italia">
             </div>
-            <div class="profile-icons">
-                <img>
+            <div class="server-icons">
+                <img src="img\server_javascript.png" alt="Server di javascript">
             </div>
-            <div class="profile-icons">
-                <img>
+            <div class="server-icons">
+                <img src="img\server_nintendo.png" alt="Server di nintendo">
             </div>
-            <div class="profile-icons">
-                <img>
+            <div class="server-icons">
+                <img src="img\server_pokemon.png" alt="Server di Pokemon">
             </div>
         </div>
         <div class="msg-board">
             <div class="msg-header">
                 <h1 class="msg-title">Messaggi</h1>
                 <div class="src-container">
-                    <div class="src-icon"></div>
-                    <button class="add-btn"></button>
+                    <div class="src-icon"><i class="bi bi-search"></i></div>
+                    <button class="add-btn"><i class="bi bi-person-fill-add"></i> Aggiungi amici</button>
                 </div>
             </div>
             <div class="msg-container">
                 <div class="pfp">
-                    <img>
+                    <img src="./img/profile1.webp" alt="Immagine di profilo 1">
                 </div>
                 <div class="msg-textbox">
-                    <p class="msg-name"></p>
-                    <p class="msg-time"></p>
-                    <p class="msg"></p>
+                    <p class="msg-name">Giuseppe Rossi</p>
+                    <p class="msg-time">2min</p>
+                    <p class="msg">ciao! tutto bene?</p>
                 </div>
             </div>
             <div class="msg-container msg-active">
                 <div class="pfp">
-                    <img>
+                    <img src="./img/profile2.webp" alt="Immagine di profilo 2">
                 </div>
                 <div class="msg-textbox">
-                    <p class="msg-name"></p>
-                    <p class="msg-time"></p>
-                    <p class="msg"></p>
+                    <p class="msg-name">Francesco Bianchi</p>
+                    <p class="msg-time">5min</p>
+                    <p class="msg">Tu: perfetto, grazie!</p>
                 </div>
             </div>
             <div class="msg-container">
                 <div class="pfp">
-                    <img>
+                    <img src="./img/profile3.webp" alt="Immagine di profilo 3">
                 </div>
                 <div class="msg-textbox">
-                    <p class="msg-name"></p>
-                    <p class="msg-time"></p>
-                    <p class="msg"></p>
+                    <p class="msg-name">Giulio Moretti</p>
+                    <p class="msg-time">8min</p>
+                    <p class="msg">Tu: ottimo lavoro!</p>
                 </div>
             </div>
             <div class="msg-container">
                 <div class="pfp">
-                    <img>
+                    <img src="./img/profile4.webp" alt="Immagine di profilo 4">
                 </div>
                 <div class="msg-textbox">
-                    <p class="msg-name"></p>
-                    <p class="msg-time"></p>
-                    <p class="msg"></p>
+                    <p class="msg-name">Lucia Ferrari</p>
+                    <p class="msg-time">12min</p>
+                    <p class="msg">grazie mille per tutto</p>
                 </div>
             </div>
             <div class="msg-container">
                 <div class="pfp">
-                    <img>
+                    <img src="./img/profile5.webp" alt="Immagine di profilo 5">
                 </div>
                 <div class="msg-textbox">
-                    <p class="msg-name"></p>
-                    <p class="msg-time"></p>
-                    <p class="msg"></p>
+                    <p class="msg-name">Stefano Romano</p>
+                    <p class="msg-time">18min</p>
+                    <p class="msg">Tu: ci sentiamo dopo</p>
                 </div>
             </div>
             <div class="msg-container">
                 <div class="pfp">
-                    <img>
+                    <img src="./img/profile6.webp" alt="Immagine di profilo 6">
                 </div>
                 <div class="msg-textbox">
-                    <p class="msg-name"></p>
-                    <p class="msg-time"></p>
-                    <p class="msg"></p>
+                    <p class="msg-name">Alessandra Conti</p>
+                    <p class="msg-time">25min</p>
+                    <p class="msg">dopo facciamo i conti.</p>
                 </div>
             </div>
             <div class="msg-container">
                 <div class="pfp">
-                    <img>
+                    <img src="./img/profile8.webp" alt="Immagine di profilo 7">
                 </div>
                 <div class="msg-textbox">
-                    <p class="msg-name"></p>
-                    <p class="msg-time"></p>
-                    <p class="msg"></p>
+                    <p class="msg-name">Elena Martini</p>
+                    <p class="msg-time">45min</p>
+                    <p class="msg">Tu: ti prego elena, fammi vedere i bambini</p>
+                </div>
+            </div>
+
+            <!-- signori per favore... numerate bene i file...-->
+            <div class="msg-container">
+                <div class="pfp">
+                    <img src="./img/profile7.webp" alt="Immagine di profilo 8">
+                </div>
+                <div class="msg-textbox">
+                    <p class="msg-name">Matteo Greco</p>
+                    <p class="msg-time">48min</p>
+                    <p class="msg">48min perchè nello screen è sbagliato</p>
                 </div>
             </div>
             <div class="msg-container">
                 <div class="pfp">
-                    <img>
+                    <img src="./img/profile9.webp" alt="Immagine di profilo 9">
                 </div>
                 <div class="msg-textbox">
-                    <p class="msg-name"></p>
-                    <p class="msg-time"></p>
-                    <p class="msg"></p>
-                </div>
-            </div>
-            <div class="msg-container">
-                <div class="pfp">
-                    <img>
-                </div>
-                <div class="msg-textbox">
-                    <p class="msg-name"></p>
-                    <p class="msg-time"></p>
-                    <p class="msg"></p>
+                    <p class="msg-name">Marta Cortina</p>
+                    <p class="msg-time">1h</p>
+                    <p class="msg">Tu: hanno colpito il pentagono</p>
                 </div>
             </div>
         </div>
@@ -137,16 +144,16 @@
     </main>
     <footer class="footer">
         <div class="foot-btn">
-            <p class="page-icon"></p>
-            <p class="page-name"></p>
+            <p class="page-icon"><i class="bi bi-houses-fill"></i></p>
+            <p class="page-name">Pagina principale</p>
         </div>
         <div class="foot-btn">
-            <p class="page-icon"></p>
-            <p class="pagename"></p>
+            <p class="page-icon"><i class="bi bi-bell-fill"></i></p>
+            <p class="pagename">Notifiche</p>
         </div>
         <div class="foot-btn">
-            <img>
-            <p class="pagename"></p>
+            <img src="./img/profile1.webp" alt="Immagine profilo personale">
+            <p class="pagename">Tu</p>
         </div>
     </footer>
 </body>
