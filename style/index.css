@@ -43,3 +43,8 @@ body {
 	display: flex;
 }
 
+/* Utility */
+
+.circle {
+	border-radius: 50%;
+}
