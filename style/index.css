@@ -185,8 +185,19 @@ h1 {
 	overflow: auto;
 	flex-direction: column;
 	justify-content: flex-start;
-	row-gap: 10px;
-	height: 100%;
+	row-gap: 16px;
+	height: 80%;
 }
 
+.container::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Edge */
+}
+
+.hide-scrollbar {
+  /* 1. Hide for Firefox */
+  scrollbar-width: none;
+
+  /* 2. Hide for IE, Edge and Firefox (older versions) */
+  -ms-overflow-style: none;
+}
 
