@@ -78,13 +78,14 @@ body {
 	justify-content: center;
 	column-gap: 15px;
 	transform: scale(1.2);
+	position: relative;
+    top: 8px;
 }
 
 h1 {
     position: relative;
     font-size: x-large;
-    bottom: 10px;
-    left: 8px;
+	top: -2px;
 }
 
 .src-icon {
