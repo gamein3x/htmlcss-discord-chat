@@ -14,13 +14,14 @@ body {
     width: 512px;
 	max-height: 100vh;
 	font-family: 'Inter', sans-serif;
+	color: white;
 }
 
 
 /* Set altezze */
 
 :root {
-	--ft-height: 20vh;
+	--ft-height: 10vh;
 }
 
 .main {
@@ -28,21 +29,23 @@ body {
 	display: flex;
 	position: relative;
 	background: black;
+	z-index: 1;
 }
 
 /* Sidebar */
 
 .sidebar {
-	height: 320px;
+	height: 420px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	position: absolute;
 	top: 5px;
+	margin: 5px;
 }
 
 .server-icons {
-	height: 40px;
+	height: 50px;
 	aspect-ratio: 1;
 	display: flex;
 }
@@ -55,10 +58,10 @@ body {
     align-items: stretch;
     flex-grow: 1;
     background: darkslategrey;
-    max-width: 85%;
+    max-width: 88%;
 	position: absolute;
 	right: 0;
-	top: 10px;
+	top: 5px;
 	border-top-left-radius: 15px;
 	height: 100%;
 }
@@ -80,7 +83,6 @@ body {
     align-items: center;
     justify-content: center;
 	font-size: 10px;
-	color: white
 }
 
 .add-btn {
@@ -89,8 +91,8 @@ body {
     border-radius: 25px;
     border: transparent;
     background: #373A43;
-    color: white;
     font-size: 10px;
+	color: white;
 }
 
 .src-container > * {
@@ -100,10 +102,31 @@ body {
 .footer {
 	height: var(--ft-height);
 	display: flex;
+	z-index: 2;
+	background: #2D2D35;;
+	position: relative;
+	justify-content: center;
+	column-gap: 30px;
+	align-items: center;
+}
+
+.foot-btn {
+	text-align: center;
+	font-size: small;
+	width: 100px;
+}
+
+.page-icon {
+	font-size: 25px;
 }
 
 /* Utility */
 
 .circle {
 	border-radius: 50%;
+}
+
+.piccino {
+	height: 25px;
+	aspect-ratio: 1;
 }
