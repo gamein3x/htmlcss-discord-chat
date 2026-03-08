@@ -7,12 +7,15 @@
 }
 
 /* BODY PRESET */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
 
 body {
     margin: 0 auto;
     width: 512px;
 	max-height: 100vh;
+	font-family: 'Inter', sans-serif;
 }
+
 
 /* Set altezze */
 
@@ -52,7 +55,7 @@ body {
     align-items: stretch;
     flex-grow: 1;
     background: darkslategrey;
-    max-width: 91%;
+    max-width: 85%;
 	position: absolute;
 	right: 0;
 	top: 10px;
@@ -62,6 +65,36 @@ body {
 
 .msg-board > div {
 	width: 100%;
+}
+
+.src-container {
+    display: flex;
+}
+
+.src-icon {
+    width: 30px;
+    aspect-ratio: 1;
+    background: #373A43;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size: 10px;
+	color: white
+}
+
+.add-btn {
+    width: 200px;
+    appearance: none;
+    border-radius: 25px;
+    border: transparent;
+    background: #373A43;
+    color: white;
+    font-size: 10px;
+}
+
+.src-container > * {
+	height: 30px;
 }
 
 .footer {
