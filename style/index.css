@@ -246,7 +246,7 @@ h1 {
     content: "\F714";
 	font-family: "bootstrap-icons";
     position: fixed;
-    left: 73vw;
+    left: calc(50% + 200px);
     bottom: 11vh;
     height: 45px;
     aspect-ratio: 1;
