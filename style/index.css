@@ -7,13 +7,13 @@
 }
 
 /* BODY PRESET */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 body {
     margin: 0 auto;
     width: 512px;
 	max-height: 100vh;
-	font-family: 'Inter', sans-serif;
+	font-family: "DM Sans", sans-serif;
 	color: white;
 }
 
@@ -57,7 +57,7 @@ body {
     flex-wrap: wrap;
     align-items: stretch;
     flex-grow: 1;
-    background: darkslategrey;
+    background: #1C1D22;
     max-width: 88%;
 	position: absolute;
 	right: 0;
@@ -68,10 +68,21 @@ body {
 
 .msg-board > div {
 	width: 100%;
+	margin: 30px 10px 0 20px;
 }
 
 .src-container {
     display: flex;
+	justify-content: center;
+	column-gap: 15px;
+	transform: scale(1.2);
+}
+
+h1 {
+    position: relative;
+    font-size: x-large;
+    bottom: 10px;
+    left: 8px;
 }
 
 .src-icon {
@@ -86,7 +97,7 @@ body {
 }
 
 .add-btn {
-    width: 200px;
+    width: 280px;
     appearance: none;
     border-radius: 25px;
     border: transparent;
@@ -97,6 +108,29 @@ body {
 
 .src-container > * {
 	height: 30px;
+}
+
+.msg-container {
+	display: flex;
+	align-items: center;
+}
+
+.pfp {
+    display: flex;
+    height: 40px;
+    aspect-ratio: 1;
+}
+
+.msg-textbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-left: 8px
+}
+
+.msg-name {
+	flex-basis: 260px;
 }
 
 .footer {
